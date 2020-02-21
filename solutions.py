@@ -32,6 +32,15 @@ def frequency_sort2(items):
     return res
 
 
+def frequency_sort3(items):
+    # your code here
+    freq_count = Counter()
+
+    for item in items:
+      freq_count[item] += 1
+    
+    return list(freq_count.elements())
+
 def frequency_sort(items): return sorted(items, key=lambda x: (-items.count(x), items.index(x)))
 
 if __name__ == '__main__':
