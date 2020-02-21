@@ -64,11 +64,6 @@ if repeat:
 
 #Output: The number of words in the text as an integer.
 
-#count_words("How aresjfhdskfhskd you?", {"how", "are", "you", "hello"}) == 3
-#count_words("Bananas, give me bananas!!!", {"banana", "bananas"}) == 2
-#count_words("Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-#            {"sum", "hamlet", "infinity", "anything"}) == 1
-
 #Precondition:
 #0 < len(text) ≤ 256
 #all(3 ≤ len(w) and w.islower() and w.isalpha for w in words) 
